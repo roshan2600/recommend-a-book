@@ -6,7 +6,7 @@ from fuzzywuzzy import fuzz,process
 from PIL import Image
 
 df = pd.read_pickle("df.pkl")
-indices = pickle.load(open("D:\Study\Projects\Book Recommendation System\knn.pkl",'rb'))
+indices = pickle.load(open("knn.pkl",'rb'))
 
 all_books_names = list(df.title.values)
 
@@ -35,7 +35,7 @@ def find_the_book(find):
     return book_list
 
 #########################################################################
-image = Image.open('D:\Study\Projects\Book Recommendation System\Gear-Books-Roundup-671406905.jpeg')
+image = Image.open('Gear-Books-Roundup-671406905.jpeg')
 
 st.title("Roshan Sharma's")
 st.markdown("## Book Recommendation System")
