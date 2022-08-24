@@ -5,7 +5,7 @@ import pickle
 from fuzzywuzzy import fuzz,process
 from PIL import Image
 
-df = pd.read_pickle("D:\Study\Projects\Book Recommendation System\df.pkl")
+df = pd.read_pickle("df.pkl")
 indices = pickle.load(open("D:\Study\Projects\Book Recommendation System\knn.pkl",'rb'))
 
 all_books_names = list(df.title.values)
