@@ -57,6 +57,7 @@ with tab1:
     
 with tab2:
     actual_book = st.number_input("Which book did you meant (provide us the book number)", min_value = 1, max_value = 10)
+    actual_book = int(actual_book)
 
     if actual_book:
         book = possible_books[actual_book - 1]
