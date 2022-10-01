@@ -1,5 +1,7 @@
 # Book Recommendation System
 
+![Screenshot 2022-10-01 210143](https://user-images.githubusercontent.com/56478769/193417015-46ec4371-87ff-40dc-a1b7-f1dd894ebead.png)
+
 ## Project Description:
 - In this project, I have build a popularity-based recommendation system.
 - This recommendation system was build using KNN model, which is an unsupervised learning clustering algorithm.
@@ -64,3 +66,11 @@
   - This gives us a list of 10 observations that closely matches the string provided by the user.
   ### Book Recommendation:
   - From the list provided by the previous secction, the user can select the number of the book that he actually want to use and then our book recommedation system will provided recommendation of similar books.
+  
+---
+
+## App Screenshots:
+
+![Screenshot 2022-10-01 210320](https://user-images.githubusercontent.com/56478769/193417061-55c99a5f-e95a-4e41-be1d-08d20553a94c.png)
+![Screenshot 2022-10-01 210406](https://user-images.githubusercontent.com/56478769/193417063-482724ec-8301-4c36-81ce-4116f9366b34.png)
+
