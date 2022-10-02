@@ -4,7 +4,7 @@
 
 ## Project Description:
 - In this project, I have build a popularity-based recommendation system.
-- This recommendation system was build using KNN model, which is an unsupervised learning clustering algorithm.
+- This recommendation system was build using KNN model, which is an supervised learning classification algorithm.
 - Further, a framework is created using StreamLit and deployed using Heroku.
 - [Book Recommender System](http://recommend-a-book.herokuapp.com/)
 - Throughout this project, mostly *Python* was used.
